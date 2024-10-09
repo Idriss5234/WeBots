@@ -1,0 +1,130 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation -0.5685097140167874 0.6052000556861743 0.5572518260768666 2.0707655411075208
+  position 0.11546767190521931 0.18846803655242403 4.910300287532861
+}
+Background {
+  skyColor [
+    0.4 0.7 1
+  ]
+}
+RectangleArena {
+  rotation 0 1 0 0
+  floorSize 2 2
+  floorAppearance Parquetry {
+    type "dark strip"
+  }
+}
+Wall {
+  translation -0.85 -0.490001 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(15)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation -0.27 0.64 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(14)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation -0.52 -0.88 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(13)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation -0.63 3.52079e-14 0
+  rotation 0 0 1 3.14159
+  name "wall(12)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 0.87 -0.5 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(11)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 0.61 -3.52079e-14 0
+  rotation 0 0 1 3.14159
+  name "wall(10)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation 0.35 0.5 0
+  rotation 0 0 1 3.14159
+  name "wall(9)"
+  size 0.25 0.01 0.1
+}
+Wall {
+  translation -0.24 0.26 0
+  rotation 0 0 1 3.14159
+  name "wall(8)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation -0.24 -5.19723e-15 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(7)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation 0.25 1.01962e-07 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(6)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation 0.49 0.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(5)"
+  size 0.5 0.01 0.1
+}
+Wall {
+  translation 0.24 0.76 0
+  rotation 0 0 1 3.14159
+  name "wall(4)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation -0.5 0.26 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(3)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation 0.49 -0.25 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(2)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation -0.02 -0.5 0
+  name "wall(1)"
+  size 1 0.01 0.1
+}
+Wall {
+  translation -0.02 -0.75 0
+  size 1 0.01 0.1
+}
+DEF target Cible {
+  translation 0.159489 -0.024092 0.0600011
+  rotation 0 1 0 4.692820414042842e-06
+}
+DEF epuck0 E-puckCameraRecognition {
+  hidden position_0_0 -1.4437762660968872e-09
+  hidden position_0_1 -1.5036819492695308e-09
+  hidden linearVelocity_0 -0.0002686012050661827 1.1072943839831157e-11 -4.7776686091190036e-08
+  hidden angularVelocity_0 -7.383193090356544e-10 -0.01790672085474644 4.224160125737863e-11
+  hidden linearVelocity_1 -0.0003581341975019782 1.476564937892754e-11 -5.236159929443264e-11
+  hidden angularVelocity_1 -7.381222482349146e-10 -0.017906720845609556 -1.5059194172087283e-10
+  hidden linearVelocity_2 -0.0003581341947304607 1.476357944496601e-11 -5.236304875011191e-11
+  hidden angularVelocity_2 -7.38489902195489e-10 -0.017906720845498787 2.350751618615304e-10
+  translation -0.20985052568502527 7.552571439576763e-09 -3.198059202032602e-05
+  rotation 8.30567618529446e-06 0.9999999922431283 -0.0001242769456534916 0.00033172114621149364
+  controller "AutonomyTwo"
+}
