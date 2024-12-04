@@ -17,8 +17,7 @@ public class AutonomyTwo extends Robot {
     private LED[] leds; // Tableau pour stocker les LEDs
 
     public AutonomyTwo() {
-        timeStep = 128;  // Définir l'intervalle de temps pour le contrôle                                              ???????????????
-
+        timeStep = 128;  // Définir l'intervalle de temps pour le contrôle                                              
         // Initialisation des capteurs de distance
         distanceSensor = new DistanceSensor[8];
         String[] sensorNames = {"ps0", "ps1", "ps2", "ps3", "ps4", "ps5", "ps6", "ps7"};
@@ -59,7 +58,7 @@ public class AutonomyTwo extends Robot {
 
     // Méthode pour définir la vitesse des moteurs
     protected void move(double left, double right) {
-        double max = 6.28;  // Vitesse maximale du moteur               ??????????????? 
+        double max = 6.28;  // Vitesse maximale du moteur                
         leftMotor.setVelocity(left * max / 100); // Calculer et définir la vitesse pour la roue gauche
         rightMotor.setVelocity(right * max / 100); // Calculer et définir la vitesse pour la roue droite
     }
